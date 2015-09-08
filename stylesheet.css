@@ -1,0 +1,22 @@
+.wrapper {
+	text-align: center;
+}
+
+#addblock {
+	position: absolute;
+}
+
+#container {
+	padding: 10px;
+	height: 100%;
+	border: 1px solid black;
+}
+
+.red {
+	height: 100px;
+	width: 100px;
+	background-color: #b83f3f;
+	padding: 5px;
+	margin: 5px;
+	display: inline-block;
+}
