@@ -1,9 +1,14 @@
 .wrapper {
+	margin: 30px auto;
 	text-align: center;
 }
 
 #addblock {
-	position: absolute;
+	position: relative;
+}
+
+#removeblock {
+	position: relative;
 }
 
 #container {
@@ -19,4 +24,8 @@
 	padding: 5px;
 	margin: 5px;
 	display: inline-block;
+}
+
+.active {
+	opacity: 0.5;
 }
